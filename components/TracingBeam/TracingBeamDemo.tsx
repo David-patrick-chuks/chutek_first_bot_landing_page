@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { calsans } from "@/fonts/calsans";
+// import { calsans } from "@/fonts/calsans";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../ui/tracing-beam";
@@ -14,10 +14,10 @@ export function TracingBeamDemo() {
             <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
               {item.badge}
             </h2>
-
+{/* 
             <p className={twMerge(calsans.className, "text-xl mb-4")}>
               {item.title}
-            </p>
+            </p> */}
 
             <div className="text-sm  prose prose-sm dark:prose-invert">
               {item?.image && (
